@@ -1,0 +1,11 @@
+
+RESPONSE_OK                     = 0
+RESPONSE_ERROR                  = 1
+RESPONSE_PARAM_ERROR            = 2
+
+
+MESSAGES = {
+    RESPONSE_OK: 'OK',
+    RESPONSE_ERROR: 'ERROR',
+    RESPONSE_PARAM_ERROR: 'PARAM ERROR',
+}

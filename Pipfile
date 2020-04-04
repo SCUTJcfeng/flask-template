@@ -1,0 +1,25 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+requests = "*"
+flask = "*"
+flask-restful = "*"
+redis = "*"
+click = "*"
+celery = "*"
+pytest = "*"
+uwsgi = "*"
+gevent = "*"
+sqlalchemy = "*"
+ipython = "*"
+flower = "*"
+flask-migrate = "*"
+pymysql = "*"
+
+[requires]
+python_version = "3.7"

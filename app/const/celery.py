@@ -1,0 +1,16 @@
+
+QUEUE_DEFAULT = 'default_queue'
+QUEUE_SYSTEM = 'system_queue'
+QUEUE_SCHEDULE = 'schedule_queue'
+QUEUE_TASK = 'task_queue'
+
+EXCHANGE_SYSTEM = QUEUE_SYSTEM
+EXCHANGE_SCHEDULE = QUEUE_SCHEDULE
+
+ROUTING_KEY_SYSTEM = 'system_rk'
+ROUTING_KEY_SCHEDULE = 'schedule_rk'
+
+EXCHANGE_TYPE_DIRECT = 'direct'
+EXCHANGE_TYPE_TOPIC = 'topic'
+EXCHANGE_TYPE_FANOUT = 'fanout'
+EXCHANGE_TYPE_HEADERS = 'headers'
